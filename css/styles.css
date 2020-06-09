@@ -27,6 +27,8 @@ header{
 }
 .menu-wrap{
 	margin-left: 156px;
+	display: flex;
+
 }
 .header-menu{
 	margin-right: 60px;
