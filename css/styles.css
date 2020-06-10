@@ -1,7 +1,10 @@
 html, body{
 	width: 100vw;
-	height: 4920px;
+	min-height: 100vh;
 
+}
+body{
+	overflow-x: hidden;
 }
 button{
 	border: none;
@@ -10,7 +13,7 @@ button:hover{
 	opacity: 0.7;
 }
 .top-wrap{
-	height: 25%;
+	height: 1230px;
 	width: 100%;
 	background-image: url(../images/top-back.png);
 	background-size: contain;
@@ -38,6 +41,10 @@ header{
 	font-size: 14px;
 	line-height: 24px;
 	color: #505F98;
+	cursor: pointer;
+}
+.header-menu:hover{
+	opacity: 0.7;
 }
 .header-menu:nth-child(3){
 	margin-right: 0px;
@@ -117,6 +124,7 @@ header{
 	border-radius: 2px;
 	width: 189px;
 	height: 28px;
+	cursor: pointer;
 }
 .learn-more{
 	background-color: #E7ECFF;
@@ -133,11 +141,12 @@ header{
 	border-radius: 2px;
 	width: 189px;
 	height: 28px;
+	cursor: pointer;
 
 }
 .light-section{
 	width: 100%;
-	height: 16%;
+	height: 787px;
 	background-image: url(../images/u.png);
 	background-size: 36%;
     background-repeat: no-repeat;
@@ -201,7 +210,7 @@ header{
 }
 .lotus-section{
 	width: 100%;
-	height: 13%;
+	height: 787px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -217,7 +226,7 @@ header{
 }
 .mobile-section{
 	width: 100%;
-	height: 13%;
+	height: 787px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -233,7 +242,7 @@ header{
 }
 .last-section{
 	width: 100%;
-	height: 13%;
+	height: 787px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -249,7 +258,7 @@ header{
 }
 .price-section{
 	width: 100%;
-	height: 19%;
+	height: 934px;
 	background-image: url(../images/rectangle.png);
 	background-size: 182%;
     background-repeat: no-repeat;
@@ -305,6 +314,10 @@ header{
 	line-height: 26px;
 	text-align: center;
 	color: #37447E;
+	cursor: pointer;
+}
+.under-bucks:hover{
+	opacity: 0.7;
 }
 .above-button{
 	font-family: Roboto;
@@ -329,10 +342,11 @@ header{
 	text-align: center;
 	color: #FFFFFF;
 	margin-top: 9px;
+	cursor: pointer;
 }
 footer{
 	width: 100%;
-	height: 4.6%;
+	height: 226px;
 	display: flex;
 	flex-direction: column;
 
@@ -377,12 +391,17 @@ footer{
 	border-radius: 2px;
 	width: 150px;
 	height: 20px;
+	cursor: pointer;
 }
 .footer-bottom-wrap-left{
 	margin-left: 215px;
 }
 .footer-menu{
 	margin-right: 60px;
+	cursor: pointer;
+}
+.footer-menu:hover{
+	opacity: 0.7;
 }
 .footer-menu:nth-child(3){
 	margin-right: 0px;
@@ -392,6 +411,7 @@ footer{
 }
 .footer-icons{
 	margin-right: 34px;
+	cursor: pointer;
 }
 .footer-icons:nth-child(5){
 	margin-right: 0px;
