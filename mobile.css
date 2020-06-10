@@ -47,6 +47,7 @@
 	}
 	.footer-top-wrap{
 		border-top: 1px solid gray;
+		border-bottom: none;
 	}
 	.footer-bottom-wrap{
 		order: 1;
