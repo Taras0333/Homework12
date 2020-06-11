@@ -1,0 +1,24 @@
+{
+  "name": "hw12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taras0333/Homework12.git"
+  },
+  "author": "Taras",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Taras0333/Homework12/issues"
+  },
+  "homepage": "https://github.com/Taras0333/Homework12#readme"
+}
